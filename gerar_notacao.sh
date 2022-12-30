@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Inicializa uma lista vazia
