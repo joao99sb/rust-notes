@@ -1,19 +1,23 @@
-## Para que serve o **Option**: 
+## Para que serve o **Option**:
+
 o **Option** é um tipo de dados que representa um valor que pode ser presente ou ausente.
 é um padrao de código, como se fosse o Result do java script:
 
 ```js{
 
-    const result = {data:null,error:null}
+        const result = {
+            data:null,
+            error:null
+        }
 
-    funcaoQueRetornaAlgo(result)
+        funcaoQueRetornaAlgo(result)
 
-    if(result.error){
-        //tratar o erro
-        // geralmente a mensagem de erro se encontra em resul.data
-    }else{
-        // lidar com o resultado que esta em result.data
-    }
+        if(result.error){
+            //tratar o erro
+            // geralmente a mensagem de erro se encontra em resul.data
+        }else{
+            // lidar com o resultado que esta em result.data
+        }
 
 ```
 
